@@ -1,5 +1,11 @@
 # Genesis Enterprise
 
+![status](https://img.shields.io/badge/status-active-brightgreen)
+![license](https://img.shields.io/badge/license-Apache%202.0-blue)
+![architecture](https://img.shields.io/badge/architecture-MoE--System-purple)
+![energy](https://img.shields.io/badge/focus-energy--aware--AI-darkgreen)
+![readiness](https://img.shields.io/badge/readiness-enterprise--grade-black)
+
 **Energy-Aware, Bio-Inspired Mixture-of-Experts Architecture**
 
 Genesis Enterprise is a bio-inspired AI architecture designed for **enterprise-scale systems**, where energy efficiency, routing stability, and adaptive intelligence are first-class objectives.
@@ -9,6 +15,7 @@ Rather than executing intelligence uniformly, Genesis decomposes computation int
 This repository presents the **conceptual foundations**, **architectural principles**, and **measured experimental results** of the Genesis approach.
 
 > ⚠️ The production-grade implementation, orchestration layer, and optimization engine are part of the **private Genesis Enterprise stack** and are not included in this repository.
+
 
 ---
 

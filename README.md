@@ -2,10 +2,13 @@
 
 **Energy-Aware, Bio-Inspired Mixture-of-Experts Architecture**
 
-Genesis Enterprise is a bio-inspired AI architecture designed for **enterprise-scale deployment**, focusing on **energy efficiency, routing stability, and adaptive intelligence**.
+Genesis Enterprise is a bio-inspired AI architecture designed for **enterprise-scale systems**, where energy efficiency, routing stability, and adaptive intelligence are first-class objectives.
 
-This repository presents the **conceptual foundations, architectural principles, and measured results** of Genesis.
-The production implementation is part of the private Genesis Enterprise stack.
+Rather than executing intelligence uniformly, Genesis decomposes computation into **specialized experts**, dynamically activated through **fine-grained, token-level routing** and guided by **Hamiltonian energy minimization** principles.
+
+This repository presents the **conceptual foundations**, **architectural principles**, and **measured experimental results** of the Genesis approach.
+
+> ⚠️ The production-grade implementation, orchestration layer, and optimization engine are part of the **private Genesis Enterprise stack** and are not included in this repository.
 
 ---
 

@@ -78,7 +78,7 @@ These components are **not part of this public repository**.
 Enterprise demo access is available upon request.
 
 📩 **Contact:** mustapha.hamdi@innodeep.net  
-🌐 **Website:** https://your-website-here
+🌐 **Website:** [https://your-website-here](https://www.innodeep.net/genesis/)
 
 ---
 

@@ -55,7 +55,7 @@ Results measured under real-world conditions:
 - **1.6×–1.77× speedup** vs reference MoE architectures
 - Improved **performance ↔ energy Pareto frontier**
 - 
-![Dashboard](assets/dashboard.png)
+![Dashboard](assets/Dashboard.png)
 As illustrated in our dashboard, a complex query such as “the financial impact of mRNA vaccines” simultaneously activates Finance and Bio experts, without unnecessarily engaging the entire network.
  
 ### Comparative Benchmarks

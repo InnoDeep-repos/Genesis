@@ -1,11 +1,9 @@
 # Genesis: Energy-Aware Sparse Routing Outperforms Mixture-of-Experts at Scale
 
-![status](https://img.shields.io/badge/status-active-brightgreen)
-![license](https://img.shields.io/badge/license-Apache%202.0-blue)
-![architecture](https://img.shields.io/badge/architecture-MoE--System-purple)
-![energy](https://img.shields.io/badge/focus-energy--aware--AI-darkgreen)
-![readiness](https://img.shields.io/badge/readiness-enterprise--grade-black)
-
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![ArXiv](https://img.shields.io/badge/arXiv-2505.xxxxx-b31b1b.svg)](https://arxiv.org/abs/2505.xxxxx)
+[![Python](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![Pytorch](https://img.shields.io/badge/pytorch-2.1+-orange.svg)](https://pytorch.org/)
 
 > **"The future of efficient AI lies not just in sparsity, but in energy-centric design principles."**
 

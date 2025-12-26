@@ -54,7 +54,7 @@ Genesis activates only the experts strictly required by the semantic context, ke
 As illustrated above, a complex query triggers precise activation of specialized experts, ensuring zero wasted compute on irrelevant parameters.
 
 ### Training Dynamics (13B Convergence)
-![Convergence](assets/convergence_graph.png)
+![Convergence](assets/performance_graph.png)
 Genesis achieves a deeper semantic regime significantly faster than standard MoE architectures, as evidenced by the rapid decline in training loss.
 
 ---

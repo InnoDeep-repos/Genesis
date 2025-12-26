@@ -54,6 +54,16 @@ Results measured under real-world conditions:
 - **–17.8% energy at 13B scale (NVIDIA H200)**
 - **1.6×–1.77× speedup** vs reference MoE architectures
 - Improved **performance ↔ energy Pareto frontier**
+
+### Performance Highlights (13B Scale)
+
+| Metric | Mixtral (Baseline) | Genesis (Ours) | Improvement |
+| :--- | :---: | :---: | :--- |
+| **Final Cross-Entropy Loss** | 1.18 | **0.69** | **+41.5% Convergence** |
+| **Training Throughput** | 1.0x | **1.60x** | **+60% Speed** |
+| **Energy Consumption** | 100% | **82.2%** | **-17.8% Energy** |
+| **Semantic Stability (SSI)** | 0.989 | **0.998** | **+0.9% Stability** |
+
 - 
 ![Dashboard](assets/Dashboard.png)
 As illustrated in our dashboard, a complex query such as “the financial impact of mRNA vaccines” simultaneously activates Finance and Bio experts, without unnecessarily engaging the entire network.

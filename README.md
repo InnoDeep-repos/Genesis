@@ -6,6 +6,7 @@
 ![energy](https://img.shields.io/badge/focus-energy--aware--AI-darkgreen)
 ![readiness](https://img.shields.io/badge/readiness-enterprise--grade-black)
 
+
 **Energy-Aware, Bio-Inspired Mixture-of-Experts Architecture**
 
 Genesis Enterprise is a bio-inspired AI architecture designed for **enterprise-scale systems**, where energy efficiency, routing stability, and adaptive intelligence are first-class objectives.
@@ -54,7 +55,7 @@ Results measured under real-world conditions:
 - **–17.8% energy at 13B scale (NVIDIA H200)**
 - **1.6×–1.77× speedup** vs reference MoE architectures
 - Improved **performance ↔ energy Pareto frontier**
-- 
+
 ![Dashboard](assets/Dashboard.png)
 As illustrated in our dashboard, a complex query such as “the financial impact of mRNA vaccines” simultaneously activates Finance and Bio experts, without unnecessarily engaging the entire network.
  
@@ -88,7 +89,7 @@ These components are **not part of this public repository**.
 Enterprise demo access is available upon request.
 
 📩 **Contact:** mustapha.hamdi@innodeep.net  
-🌐 **Website:** [https://your-website-here](https://www.innodeep.net/genesis/)
+🌐 **Website:** [https://www.innodeep.net/genesis/](https://www.innodeep.net/genesis/)
 
 ---
 

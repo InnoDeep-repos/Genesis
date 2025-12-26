@@ -1,107 +1,85 @@
 # Genesis Enterprise
 
+![NVIDIA Inception](https://img.shields.io/badge/NVIDIA-Inception_Member-green)
 ![status](https://img.shields.io/badge/status-active-brightgreen)
-![license](https://img.shields.io/badge/license-Apache%202.0-blue)
 ![architecture](https://img.shields.io/badge/architecture-MoE--System-purple)
 ![energy](https://img.shields.io/badge/focus-energy--aware--AI-darkgreen)
-![readiness](https://img.shields.io/badge/readiness-enterprise--grade-black)
+![hardware](https://img.shields.io/badge/optimized-NVIDIA_H200-black)
 
-**Energy-Aware, Bio-Inspired Mixture-of-Experts Architecture**
+**The Energy-Aware, Bio-Inspired Standard for Next-Gen LLMs.**
 
-Genesis Enterprise is a bio-inspired AI architecture designed for **enterprise-scale systems**, where energy efficiency, routing stability, and adaptive intelligence are first-class objectives.
+Genesis Enterprise is a bio-inspired AI architecture designed for **enterprise-scale systems**, where energy efficiency, routing stability, and adaptive intelligence are first-class objectives. Optimized for the **NVIDIA H200 (Hopper)**, it redefines the Pareto frontier between performance and power consumption.
 
-Rather than executing intelligence uniformly, Genesis decomposes computation into **specialized experts**, dynamically activated through **fine-grained, token-level routing** and guided by **Hamiltonian energy minimization** principles.
-
-This repository presents the **conceptual foundations**, **architectural principles**, and **measured experimental results** of the Genesis approach.
-
-> ⚠️ The production-grade implementation, orchestration layer, and optimization engine are part of the **private Genesis Enterprise stack** and are not included in this repository.
-
+Rather than executing intelligence uniformly, Genesis decomposes computation into **specialized experts**, dynamically activated through **fine-grained, token-level routing** guided by **Hamiltonian energy minimization** principles.
 
 ---
 
-## Core Principles
+## 🚀 Performance Highlights (13B Scale on H200)
 
-- **Mixture-of-Experts (MoE)** architecture
-- **Hamiltonian energy minimization** as a routing objective
-- **Token-level routing** for fine-grained compute allocation
-- **Self-growing experts** emerging from semantic stress
-- **Measured energy efficiency on real hardware (NVIDIA H200)**
+Our latest benchmarks on **NVIDIA H200** hardware demonstrate that Genesis doesn't just save energy—it learns more efficiently.
 
-Genesis does not blindly activate experts.
-It minimizes an energy function and allows the system to **self-organize dynamically**.
-
----
-
-## Why an Energy-Aware MoE?
-
-> You don’t wake up a neurosurgeon to apply a bandage.
-
-Genesis activates only the experts strictly required by the semantic context, keeping the rest of the system in a low-energy idle state.
-
-This enables:
-- Adaptive compute allocation
-- Reduced routing entropy
-- Improved stability
-- Measurable GPU energy savings
-
----
-
-## Experimental Evidence
-
-Results measured under real-world conditions:
-
-- **Up to –21% GPU energy consumption at 7B**
-- **–17.8% energy at 13B scale (NVIDIA H200)**
-- **1.6×–1.77× speedup** vs reference MoE architectures
-- Improved **performance ↔ energy Pareto frontier**
-
-### Performance Highlights (13B Scale)
-
-| Metric | Mixtral (Baseline) | Genesis (Ours) | Improvement |
+| Metric | Mixtral (Baseline) | **Genesis (Ours)** | **Improvement** |
 | :--- | :---: | :---: | :--- |
 | **Final Cross-Entropy Loss** | 1.18 | **0.69** | **+41.5% Convergence** |
 | **Training Throughput** | 1.0x | **1.60x** | **+60% Speed** |
 | **Energy Consumption** | 100% | **82.2%** | **-17.8% Energy** |
 | **Semantic Stability (SSI)** | 0.989 | **0.998** | **+0.9% Stability** |
 
-- 
+---
+
+## Core Principles
+
+* **Hamiltonian Routing Objective:** Physics-based token allocation that minimizes semantic stress and routing entropy.
+* **Dynamic Expert Mitosis:** Specialized experts emerge and grow based on data density, preventing knowledge saturation.
+* **Rapid Calibration (Plug-and-Play):** Ability to sparsify dense models (e.g., Llama-3.1) in under 20 minutes with negligible energy cost (640 kJ).
+* **Green AI Monitoring:** Native NVML integration for real-time Joules-per-token tracking.
+
+---
+
+## Why Energy-Aware MoE?
+
+> "You don’t wake up a neurosurgeon to apply a bandage."
+
+Genesis activates only the experts strictly required by the semantic context, keeping the rest of the system in a low-energy state. This enables:
+* **Measurable OPEX reduction:** Direct savings on GPU energy and cooling.
+* **Increased Model IQ:** Reaching a **0.69 Loss** where others plateau at 1.18.
+* **Hardware Synergy:** Specifically tuned to leverage H200's memory bandwidth and power profiles.
+
+---
+
+## 📊 Experimental Evidence
+
+### Semantic Routing Dashboard
 ![Dashboard](assets/Dashboard.png)
-As illustrated in our dashboard, a complex query such as “the financial impact of mRNA vaccines” simultaneously activates Finance and Bio experts, without unnecessarily engaging the entire network.
- 
-### Comparative Benchmarks
-![Benchmarks](assets/performance_graph.png)
----
+As illustrated above, a complex query triggers precise activation of specialized experts, ensuring zero wasted compute on irrelevant parameters.
 
-## Research Reference (Early PoC)
-
-📄 **Genesis – Early Proof of Concept (Research Version)**  
-https://arxiv.org/html/2512.08968v1
-
-> Genesis Enterprise represents a **major, industrial-grade evolution** of this initial research concept.
+### Training Dynamics (13B Convergence)
+![Convergence](assets/convergence_graph.png)
+Genesis achieves a deeper semantic regime significantly faster than standard MoE architectures, as evidenced by the rapid decline in training loss.
 
 ---
 
-## Enterprise Version
+## 📄 Research & Publications
 
-The Genesis Enterprise implementation includes:
-- Optimized routing kernels
-- Energy-aware scheduling
-- Enterprise monitoring & dashboards
-- Deployment-ready infrastructure
-
-These components are **not part of this public repository**.
+Genesis is a major, industrial-grade evolution of our initial research foundations:
+* **ICML 2026 (Pending):** "Genesis: Energy-Aware Sparse Routing on Hopper Architectures".
+* **Early PoC (Research Version):** [arXiv:2512.08968v1](https://arxiv.org/html/2512.08968v1).
 
 ---
 
-## Demo & Contact
+## 🔓 Enterprise Version & Access
 
-Enterprise demo access is available upon request.
+The production-grade implementation, including optimized routing kernels, energy-aware scheduling, and private IP, is available for enterprise partners.
 
-📩 **Contact:** mustapha.hamdi@innodeep.net  
-🌐 **Website:** [https://your-website-here](https://www.innodeep.net/genesis/)
+> ⚠️ **The core engine is currently in Private Beta** to protect intellectual property while we finalize our ICML 2026 submission and H200 hardware-specific kernels.
+
+**For NVIDIA Partners & Researchers:** Private demo access and technical reports are available upon request.
+
+📩 **Contact:** [mustapha.hamdi@innodeep.net](mailto:mustapha.hamdi@innodeep.net)
+🌐 **Website:** [InnoDeep - Genesis](https://www.innodeep.net/genesis/)
 
 ---
 
 ## License
 
-Documentation and figures are released under Apache 2.0.
+Documentation, whitepapers, and figures are released under **Apache 2.0**.

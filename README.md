@@ -25,13 +25,21 @@ Our latest benchmarks on **NVIDIA H200** hardware demonstrate that Genesis doesn
 | **Energy Consumption** | 100% | **82.2%** | **-17.8% Energy** |
 | **Semantic Stability (SSI)** | 0.989 | **0.998** | **+0.9% Stability** |
 
+### ⚡ New: Genesis Rapid Calibration (V60 Plug)
+Genesis can "retrofit" existing dense models (e.g., Llama-3-8B) in minutes on H200.
+
+| Model | Reasoning (Winogrande) | Energy Cost | Time to Deploy |
+| :--- | :---: | :---: | :---: |
+| Llama-3 (Dense) | 73.0% | ~700,000 kJ | Weeks |
+| **Genesis Plug** | **59.75%** | **640 kJ** | **9 Minutes** |
+
 ---
 
 ## Core Principles
 
 * **Hamiltonian Routing Objective:** Physics-based token allocation that minimizes semantic stress and routing entropy.
 * **Dynamic Expert Mitosis:** Specialized experts emerge and grow based on data density, preventing knowledge saturation.
-* **Rapid Calibration (Plug-and-Play):** Ability to sparsify dense models (e.g., Llama-3.1) in under 20 minutes with negligible energy cost (640 kJ).
+* **Rapid Calibration (Plug-and-Play):** Ability to sparsify dense models (e.g., Llama-3.1) in **9 minutes** with negligible energy cost (640 kJ).
 * **Green AI Monitoring:** Native NVML integration for real-time Joules-per-token tracking.
 
 ---

@@ -73,7 +73,7 @@ The production-grade implementation, including optimized routing kernels, energy
 
 > ⚠️ **The core engine is currently in Private Beta** to protect intellectual property while we finalize our ICML 2026 submission and H200 hardware-specific kernels.
 
-**For NVIDIA Partners & Researchers:** Private demo access and technical reports are available upon request.
+**For Partners & Researchers:** Private demo access and technical reports are available upon request.
 
 📩 **Contact:** [mustapha.hamdi@innodeep.net](mailto:mustapha.hamdi@innodeep.net)
 🌐 **Website:** [InnoDeep - Genesis](https://www.innodeep.net/genesis/)
